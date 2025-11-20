@@ -1,10 +1,6 @@
-import csv
-from tracemalloc import start
 from vobject import vCard
 import yaml
 import pandas as pd
-import sys
-import os
 import datetime
 
 with open('config.yaml') as file:
@@ -49,4 +45,4 @@ def csv_to_vcf(phonelist, output_file):
 
 if __name__ == "__main__":
     csv_to_vcf(phonelist, vcf_filename)
-    print(f"Converted {csv_filename} to {vcf_filename}")
+    print(f"Phone list conversion done, check {vcf_filename}")
