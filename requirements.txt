@@ -1,0 +1,3 @@
+pyyaml
+vobject
+pandas

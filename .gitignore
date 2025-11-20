@@ -1,0 +1,4 @@
+# Ignore Python virtual environment
+.venv/
+# Ignore local config file
+config.yaml
