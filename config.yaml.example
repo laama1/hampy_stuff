@@ -1,0 +1,4 @@
+sheet_url: "https://docs.google.com/spreadsheets/d/XXX/export?format=csv&gid=0"
+output_path: "/www/"
+gs_output_path: "/www/gs/"
+webroot_url: "http://example.com/"
